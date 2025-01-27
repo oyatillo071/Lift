@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Lift</title>
+  </head>
+  <body class="bg-gray-400 container mx-auto">
+    <div class="grid grid-cols-2 gap-0 w-full p-6">
+      <div
+        id="elevator"
+        class="w-[80px] h-[80px] relative top-position left-[80%]"
+      >
+        <img src="./images//elevator.svg" alt="lift icon" />
+      </div>
+      <div class="grid grid-rows-5 gap-5">
+        <div class="h-28 w-full bg-white flex items-center justify-center">
+          <button
+            class="button px-3 py-1 cursor-pointer rounded-md"
+            type="button"
+            top="80px"
+            onclick="changeFloor(`20px`,1)"
+          >
+            <img
+              src="./images//elevator_7248631.svg"
+              alt="elevator button"
+              width="30px"
+              height="30px"
+            />
+          </button>
+        </div>
+        <div class="h-28 w-full bg-white flex items-center justify-center">
+          <button
+            class="button px-3 py-1 cursor-pointer rounded-md"
+            type="button"
+            top="150px"
+            onclick="changeFloor(`150px`,2)"
+          >
+            <img
+              src="./images//elevator_7248631.svg"
+              alt="elevator button"
+              width="30px"
+              height="30px"
+            />
+          </button>
+        </div>
+        <div class="h-28 w-full bg-white flex items-center justify-center">
+          <button
+            class="button px-3 py-1 cursor-pointer rounded-md"
+            type="button"
+            top="280px"
+            onclick="changeFloor(`280px`,3)"
+          >
+            <img
+              src="./images//elevator_7248631.svg"
+              alt="elevator button"
+              width="30px"
+              height="30px"
+            />
+          </button>
+        </div>
+
+        <div class="h-28 w-full bg-white flex items-center justify-center">
+          <button
+            class="button px-3 py-1 cursor-pointer rounded-md"
+            type="button"
+            onclick="changeFloor(`410px`,4)"
+            top="410px"
+          >
+            <img
+              src="./images//elevator_7248631.svg"
+              alt="elevator button"
+              width="30px"
+              height="30px"
+            />
+          </button>
+        </div>
+        <div class="h-28 w-full bg-white flex items-center justify-center">
+          <button
+            class="button px-3 py-1 cursor-pointer rounded-md"
+            type="button"
+            top="540px"
+            onclick="changeFloor(`540px`,5)"
+          >
+            <img
+              src="./images//elevator_7248631.svg"
+              alt="elevator button"
+              width="30px"
+              height="30px"
+            />
+          </button>
+        </div>
+        <div class="h-28 w-full bg-white flex items-center justify-center">
+          <button
+            class="button px-3 py-1 cursor-pointer rounded-md"
+            type="button"
+            top="670px"
+            onclick="changeFloor(`670px`,6)"
+          >
+            <img
+              src="./images//elevator_7248631.svg"
+              alt="elevator button"
+              width="30px"
+              height="30px"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>

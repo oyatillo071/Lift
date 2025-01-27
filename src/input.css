@@ -1,0 +1,17 @@
+@import "tailwindcss";
+:root {
+  --top: 20px;
+  --current: 20px;
+  --finalyPos: 20px;
+}
+.top-position {
+  top: var(--finalyPos);
+}
+@keyframes elevatorLift {
+  from {
+    transform: translateY(var(--current));
+  }
+  to {
+    transform: translateY(var(--top));
+  }
+}
